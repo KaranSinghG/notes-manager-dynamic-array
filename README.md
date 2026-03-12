@@ -7,6 +7,13 @@ Add a note
 View all notes  
 Delete a note  
 Search notes
+## Time Complexity Analysis
+| Operation | Time Complexity | Explanation |
+| Add Note | O(1) average |	Direct insertion at next available index |
+| Add Note (Resize) | O(n) | Requires copying all existing elements |
+| View Notes | O(n) | Iterates through all stored notes |
+| Delete Note | O(n) | Elements must shift left after deletion |
+| Search Note | O(n) | Linear scan through notes |
 ## DSA Concepts Practiced
 Dynamic array resizing  
 Manual memory expansion  
