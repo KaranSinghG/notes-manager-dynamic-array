@@ -25,4 +25,11 @@ public class NotesRepository {
         notes = newNotes;
     }
 
+    public Note[] getAllNotes() {
+        Note[] allNotes = new Note[size];
+        for (int i = 0; i < size; i++) {
+            allNotes[i] = notes[i];
+        }
+        return allNotes;
+    }
 }
