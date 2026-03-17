@@ -9,4 +9,8 @@ public class NotesService {
     public void addNote(Note note) {
         notesRepository.addNote(note);
     }
+
+    public void deleteNoteById(int id) {
+        notesRepository.deleteNoteById(id);
+    }
 }
