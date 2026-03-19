@@ -28,4 +28,5 @@ LinkedList
 Java Collections Framework  
 Only arrays and loops are used to manage storage.
 ## Demo
-TBD
+<img width="471" height="891" alt="image" src="https://github.com/user-attachments/assets/807f2d0a-53dc-46b3-9d2c-438449c94fe2" />
+
